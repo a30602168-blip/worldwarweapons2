@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "world-war-weapons",
+	"version": "${version}",
+	"name": "world-war-weapons",
+	"description": "Waffen, Munition, Nahkampfwaffen und Aufsätze.",
+	"authors": [
+		"World War Weapons Team"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/world-war-weapons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.WorldWarWeapons"
+		],
+		"client": [
+			"com.example.client.WorldWarWeaponsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
